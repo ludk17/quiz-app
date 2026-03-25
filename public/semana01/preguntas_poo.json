@@ -1,0 +1,224 @@
+{
+  "trivia": [
+    {
+      "id": 1,
+      "pregunta": "¿Qué representa <code>User</code> en la siguiente línea?<br><pre><code>User usuario = new User();</code></pre>",
+      "alternativas": [
+        { "opcion": "1", "value": "Un método" },
+        { "opcion": "2", "value": "Una Clase (el molde)" },
+        { "opcion": "3", "value": "Una variable de texto" },
+        { "opcion": "4", "value": "Un paquete de datos" }
+      ],
+      "respuesta_correcta": "2"
+    },
+    {
+      "id": 2,
+      "pregunta": "¿Cuál es la <b>instancia</b> (el objeto real en memoria) en este código?<br><pre><code>Button miBoton = new Button();</code></pre>",
+      "alternativas": [
+        { "opcion": "1", "value": "Button" },
+        { "opcion": "2", "value": "new" },
+        { "opcion": "3", "value": "miBoton" },
+        { "opcion": "4", "value": "El punto y coma" }
+      ],
+      "respuesta_correcta": "3"
+    },
+    {
+      "id": 3,
+      "pregunta": "Si ves <code>carrito.vaciar();</code>, ¿qué es <code>vaciar()</code>?",
+      "alternativas": [
+        { "opcion": "1", "value": "Un atributo o propiedad" },
+        { "opcion": "2", "value": "Una clase" },
+        { "opcion": "3", "value": "Un método (una acción)" },
+        { "opcion": "4", "value": "Un constructor" }
+      ],
+      "respuesta_correcta": "3"
+    },
+    {
+      "id": 4,
+      "pregunta": "¿Qué valor almacena la variable <code>edad</code> después de ejecutar esto?<br><pre><code>int edad = 20;\nedad = edad + 5;</code></pre>",
+      "alternativas": [
+        { "opcion": "1", "value": "20" },
+        { "opcion": "2", "value": "5" },
+        { "opcion": "3", "value": "25" },
+        { "opcion": "4", "value": "Error" }
+      ],
+      "respuesta_correcta": "3"
+    },
+    {
+      "id": 5,
+      "pregunta": "En móviles se usa mucho <code>this</code>. ¿A qué se refiere generalmente?",
+      "alternativas": [
+        { "opcion": "1", "value": "A una clase externa" },
+        { "opcion": "2", "value": "A la instancia actual de la clase donde estoy escribiendo" },
+        { "opcion": "3", "value": "A la base de datos" },
+        { "opcion": "4", "value": "Al sistema operativo del celular" }
+      ],
+      "respuesta_correcta": "2"
+    },
+    {
+      "id": 6,
+      "pregunta": "¿Cuál es el resultado de esta condición?<br><pre><code>int bateria = 15;\nif (bateria < 20) {\n  print('Cargar');\n} else {\n  print('OK');\n}</code></pre>",
+      "alternativas": [
+        { "opcion": "1", "value": "OK" },
+        { "opcion": "2", "value": "Cargar" },
+        { "opcion": "3", "value": "No imprime nada" },
+        { "opcion": "4", "value": "Error de sintaxis" }
+      ],
+      "respuesta_correcta": "2"
+    },
+    {
+      "id": 7,
+      "pregunta": "¿Para qué sirve un <b>Constructor</b>?",
+      "alternativas": [
+        { "opcion": "1", "value": "Para borrar la memoria" },
+        { "opcion": "2", "value": "Para configurar los datos iniciales al crear un objeto" },
+        { "opcion": "3", "value": "Para cerrar la aplicación" },
+        { "opcion": "4", "value": "Para cambiar el color de la pantalla" }
+      ],
+      "respuesta_correcta": "2"
+    },
+    {
+      "id": 8,
+      "pregunta": "Si un método devuelve <code>void</code>, ¿qué significa?",
+      "alternativas": [
+        { "opcion": "1", "value": "Que devuelve un número entero" },
+        { "opcion": "2", "value": "Que devuelve un texto" },
+        { "opcion": "3", "value": "Que realiza una acción pero no devuelve ningún valor" },
+        { "opcion": "4", "value": "Que el método está vacío y no hace nada" }
+      ],
+      "respuesta_correcta": "3"
+    },
+    {
+      "id": 9,
+      "pregunta": "¿Cómo accedes a la propiedad <code>nombre</code> de un objeto llamado <code>persona</code>?",
+      "alternativas": [
+        { "opcion": "1", "value": "persona->nombre" },
+        { "opcion": "2", "value": "persona.nombre" },
+        { "opcion": "3", "value": "persona[nombre]" },
+        { "opcion": "4", "value": "obtener nombre de persona" }
+      ],
+      "respuesta_correcta": "2"
+    },
+    {
+      "id": 10,
+      "pregunta": "¿Qué es un <b>parámetro</b> en una función?",
+      "alternativas": [
+        { "opcion": "1", "value": "El nombre de la función" },
+        { "opcion": "2", "value": "Un dato de entrada que la función necesita para trabajar" },
+        { "opcion": "3", "value": "El resultado final de la función" },
+        { "opcion": "4", "value": "Un error de programación" }
+      ],
+      "respuesta_correcta": "2"
+    },
+    {
+      "id": 11,
+      "pregunta": "En desarrollo móvil, ¿qué significa que una clase <code>extiende</code> (extends) de otra?",
+      "alternativas": [
+        { "opcion": "1", "value": "Que es una copia exacta" },
+        { "opcion": "2", "value": "Que hereda funciones y características de una clase padre" },
+        { "opcion": "3", "value": "Que la clase es más larga" },
+        { "opcion": "4", "value": "Que no se puede usar" }
+      ],
+      "respuesta_correcta": "2"
+    },
+    {
+      "id": 12,
+      "pregunta": "¿Qué tipo de dato usarías para guardar si el usuario está logueado o no?",
+      "alternativas": [
+        { "opcion": "1", "value": "String" },
+        { "opcion": "2", "value": "Int" },
+        { "opcion": "3", "value": "Boolean (true/false)" },
+        { "opcion": "4", "value": "Double" }
+      ],
+      "respuesta_correcta": "3"
+    },
+    {
+      "id": 13,
+      "pregunta": "¿Qué hace el operador <code>!</code> en un booleano (ej. <code>!estaActivo</code>)?",
+      "alternativas": [
+        { "opcion": "1", "value": "Suma uno" },
+        { "opcion": "2", "value": "Multiplica el valor" },
+        { "opcion": "3", "value": "Invierte el valor (si es true pasa a false)" },
+        { "opcion": "4", "value": "Borra el valor" }
+      ],
+      "respuesta_correcta": "3"
+    },
+    {
+      "id": 14,
+      "pregunta": "¿Qué es un <code>Array</code> o <code>List</code>?",
+      "alternativas": [
+        { "opcion": "1", "value": "Una variable que solo guarda un número" },
+        { "opcion": "2", "value": "Una estructura que permite guardar varios elementos en una sola variable" },
+        { "opcion": "3", "value": "Un tipo de pantalla" },
+        { "opcion": "4", "value": "Una conexión a internet" }
+      ],
+      "respuesta_correcta": "2"
+    },
+    {
+      "id": 15,
+      "pregunta": "Si tienes <code>List frutas = ['Manzana', 'Pera'];</code>, ¿cómo obtienes 'Manzana'?",
+      "alternativas": [
+        { "opcion": "1", "value": "frutas[1]" },
+        { "opcion": "2", "value": "frutas[0]" },
+        { "opcion": "3", "value": "frutas.first()" },
+        { "opcion": "4", "value": "frutas.Manzana" }
+      ],
+      "respuesta_correcta": "2"
+    },
+    {
+      "id": 16,
+      "pregunta": "¿Qué significa que una variable sea <code>final</code> o <code>const</code>?",
+      "alternativas": [
+        { "opcion": "1", "value": "Que es la última variable del programa" },
+        { "opcion": "2", "value": "Que su valor no puede cambiar una vez asignado" },
+        { "opcion": "3", "value": "Que solo funciona en celulares antiguos" },
+        { "opcion": "4", "value": "Que es una variable pública" }
+      ],
+      "respuesta_correcta": "2"
+    },
+    {
+      "id": 17,
+      "pregunta": "¿Qué es un <b>String</b>?",
+      "alternativas": [
+        { "opcion": "1", "value": "Una cadena de texto" },
+        { "opcion": "2", "value": "Un número con decimales" },
+        { "opcion": "3", "value": "Un error de sistema" },
+        { "opcion": "4", "value": "Un botón circular" }
+      ],
+      "respuesta_correcta": "1"
+    },
+    {
+      "id": 18,
+      "pregunta": "¿Para qué sirve el bucle <code>for</code>?",
+      "alternativas": [
+        { "opcion": "1", "value": "Para tomar una decisión" },
+        { "opcion": "2", "value": "Para repetir un bloque de código varias veces" },
+        { "opcion": "3", "value": "Para pedir permiso de cámara" },
+        { "opcion": "4", "value": "Para apagar el equipo" }
+      ],
+      "respuesta_correcta": "2"
+    },
+    {
+      "id": 19,
+      "pregunta": "En el código <code>class MyApp extends StatelessWidget</code>, ¿qué es <b>StatelessWidget</b>?",
+      "alternativas": [
+        { "opcion": "1", "value": "El nombre de nuestra app" },
+        { "opcion": "2", "value": "Una clase padre proporcionada por el Framework (Flutter)" },
+        { "opcion": "3", "value": "Una variable" },
+        { "opcion": "4", "value": "Un archivo de configuración" }
+      ],
+      "respuesta_correcta": "2"
+    },
+    {
+      "id": 20,
+      "pregunta": "Si una función dice <code>return x + y;</code>, ¿qué está haciendo?",
+      "alternativas": [
+        { "opcion": "1", "value": "Cerrando el programa" },
+        { "opcion": "2", "value": "Enviando el resultado de la suma a quien llamó la función" },
+        { "opcion": "3", "value": "Imprimiendo en pantalla" },
+        { "opcion": "4", "value": "Guardando los datos en la nube" }
+      ],
+      "respuesta_correcta": "2"
+    }
+  ]
+}

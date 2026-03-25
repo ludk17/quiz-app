@@ -1,0 +1,224 @@
+{
+  "trivia": [
+    {
+      "id": 1,
+      "pregunta": "¿Qué concepto de la POO permite a una clase heredar comportamientos y atributos de otra?",
+      "alternativas": [
+        { "opcion": "1", "value": "Polimorfismo" },
+        { "opcion": "2", "value": "Encapsulamiento" },
+        { "opcion": "3", "value": "Herencia" },
+        { "opcion": "4", "value": "Abstracción" }
+      ],
+      "respuesta_correcta": "3"
+    },
+    {
+      "id": 2,
+      "pregunta": "En el siguiente código, ¿qué principio se está aplicando al ocultar el estado interno? <br><code>private String password;</code>",
+      "alternativas": [
+        { "opcion": "1", "value": "Abstracción" },
+        { "opcion": "2", "value": "Encapsulamiento" },
+        { "opcion": "3", "value": "Herencia" },
+        { "opcion": "4", "value": "Instanciación" }
+      ],
+      "respuesta_correcta": "2"
+    },
+    {
+      "id": 3,
+      "pregunta": "¿Cómo se le llama a la capacidad de un objeto de tomar varias formas?",
+      "alternativas": [
+        { "opcion": "1", "value": "Sobrecarga" },
+        { "opcion": "2", "value": "Interfaz" },
+        { "opcion": "3", "value": "Polimorfismo" },
+        { "opcion": "4", "value": "Modularidad" }
+      ],
+      "respuesta_correcta": "3"
+    },
+    {
+      "id": 4,
+      "pregunta": "¿Qué es una <b>clase</b> en POO?",
+      "alternativas": [
+        { "opcion": "1", "value": "Un objeto en memoria" },
+        { "opcion": "2", "value": "Un plano o plantilla para crear objetos" },
+        { "opcion": "3", "value": "Una función global" },
+        { "opcion": "4", "value": "Un tipo de variable primitiva" }
+      ],
+      "respuesta_correcta": "2"
+    },
+    {
+      "id": 5,
+      "pregunta": "¿Cuál es el propósito del método <code>constructor</code>?",
+      "alternativas": [
+        { "opcion": "1", "value": "Destruir un objeto" },
+        { "opcion": "2", "value": "Liberar memoria" },
+        { "opcion": "3", "value": "Inicializar los atributos de un nuevo objeto" },
+        { "opcion": "4", "value": "Heredar métodos de la clase padre" }
+      ],
+      "respuesta_correcta": "3"
+    },
+    {
+      "id": 6,
+      "pregunta": "Si una clase <code>Perro</code> hereda de <code>Animal</code>, ¿cuál es la clase base?",
+      "alternativas": [
+        { "opcion": "1", "value": "Perro" },
+        { "opcion": "2", "value": "Animal" },
+        { "opcion": "3", "value": "Ambas" },
+        { "opcion": "4", "value": "Ninguna" }
+      ],
+      "respuesta_correcta": "2"
+    },
+    {
+      "id": 7,
+      "pregunta": "¿Qué palabra clave se suele usar para referirse a la instancia actual de la clase?",
+      "alternativas": [
+        { "opcion": "1", "value": "<code>super</code>" },
+        { "opcion": "2", "value": "<code>this</code> o <code>self</code>" },
+        { "opcion": "3", "value": "<code>current</code>" },
+        { "opcion": "4", "value": "<code>object</code>" }
+      ],
+      "respuesta_correcta": "2"
+    },
+    {
+      "id": 8,
+      "pregunta": "¿Qué ocurre en la <b>anulación de métodos</b> (Method Overriding)?",
+      "alternativas": [
+        { "opcion": "1", "value": "Una clase hija proporciona una implementación específica de un método de su clase padre" },
+        { "opcion": "2", "value": "Se crean dos métodos con el mismo nombre pero distintos parámetros en la misma clase" },
+        { "opcion": "3", "value": "Se elimina un método para ahorrar memoria" },
+        { "opcion": "4", "value": "Se ocultan los atributos privados" }
+      ],
+      "respuesta_correcta": "1"
+    },
+    {
+      "id": 9,
+      "pregunta": "¿Cuál de estos NO es un modificador de acceso común?",
+      "alternativas": [
+        { "opcion": "1", "value": "<code>public</code>" },
+        { "opcion": "2", "value": "<code>private</code>" },
+        { "opcion": "3", "value": "<code>protected</code>" },
+        { "opcion": "4", "value": "<code>hidden</code>" }
+      ],
+      "respuesta_correcta": "4"
+    },
+    {
+      "id": 10,
+      "pregunta": "¿Qué es una <b>clase abstracta</b>?",
+      "alternativas": [
+        { "opcion": "1", "value": "Una clase que no puede ser instanciada directamente" },
+        { "opcion": "2", "value": "Una clase que solo contiene datos" },
+        { "opcion": "3", "value": "Una clase que hereda de todas las demás" },
+        { "opcion": "4", "value": "Un sinónimo de interfaz" }
+      ],
+      "respuesta_correcta": "1"
+    },
+    {
+      "id": 11,
+      "pregunta": "¿Qué permite la <b>sobrecarga de métodos</b> (Overloading)?",
+      "alternativas": [
+        { "opcion": "1", "value": "Tener métodos con el mismo nombre pero diferente firma (parámetros)" },
+        { "opcion": "2", "value": "Tener métodos con diferentes nombres pero misma firma" },
+        { "opcion": "3", "value": "Heredar métodos de varias clases a la vez" },
+        { "opcion": "4", "value": "Acceder a métodos privados" }
+      ],
+      "respuesta_correcta": "1"
+    },
+    {
+      "id": 12,
+      "pregunta": "¿Para qué sirve el modificador <code>static</code>?",
+      "alternativas": [
+        { "opcion": "1", "value": "Para que el miembro pertenezca a la clase y no a las instancias" },
+        { "opcion": "2", "value": "Para evitar que una clase sea heredada" },
+        { "opcion": "3", "value": "Para que una variable sea inmutable" },
+        { "opcion": "4", "value": "Para ocultar métodos del usuario" }
+      ],
+      "respuesta_correcta": "1"
+    },
+    {
+      "id": 13,
+      "pregunta": "¿Cuál es la principal diferencia entre una Interfaz y una Clase Abstracta?",
+      "alternativas": [
+        { "opcion": "1", "value": "Las interfaces no existen en POO" },
+        { "opcion": "2", "value": "Las interfaces suelen definir contratos de comportamiento puro sin estado" },
+        { "opcion": "3", "value": "Las clases abstractas pueden ser instanciadas con <code>new</code>" },
+        { "opcion": "4", "value": "No hay ninguna diferencia" }
+      ],
+      "respuesta_correcta": "2"
+    },
+    {
+      "id": 14,
+      "pregunta": "¿Qué principio se enfoca en mostrar solo los detalles esenciales al usuario?",
+      "alternativas": [
+        { "opcion": "1", "value": "Herencia" },
+        { "opcion": "2", "value": "Abstracción" },
+        { "opcion": "3", "value": "Acoplamiento" },
+        { "opcion": "4", "value": "Cohesión" }
+      ],
+      "respuesta_correcta": "2"
+    },
+    {
+      "id": 15,
+      "pregunta": "¿Qué significa el término <b>instanciar</b>?",
+      "alternativas": [
+        { "opcion": "1", "value": "Eliminar un objeto" },
+        { "opcion": "2", "value": "Crear un objeto específico a partir de una clase" },
+        { "opcion": "3", "value": "Copiar el código de una función" },
+        { "opcion": "4", "value": "Compilar el programa" }
+      ],
+      "respuesta_correcta": "2"
+    },
+    {
+      "id": 16,
+      "pregunta": "Si usamos <code>super.metodo()</code> en una clase hija, ¿a qué nos referimos?",
+      "alternativas": [
+        { "opcion": "1", "value": "Al método de la clase actual" },
+        { "opcion": "2", "value": "Al método definido en la clase padre" },
+        { "opcion": "3", "value": "A un método estático global" },
+        { "opcion": "4", "value": "A un método que no existe" }
+      ],
+      "respuesta_correcta": "2"
+    },
+    {
+      "id": 17,
+      "pregunta": "¿Qué define el estado de un objeto?",
+      "alternativas": [
+        { "opcion": "1", "value": "Sus métodos" },
+        { "opcion": "2", "value": "Sus atributos/campos y sus valores actuales" },
+        { "opcion": "3", "value": "Su nombre de clase" },
+        { "opcion": "4", "value": "La memoria RAM que ocupa" }
+      ],
+      "respuesta_correcta": "2"
+    },
+    {
+      "id": 18,
+      "pregunta": "¿Qué es la <b>Composición</b> en POO?",
+      "alternativas": [
+        { "opcion": "1", "value": "Una relación 'tiene-un' donde un objeto contiene a otro" },
+        { "opcion": "2", "value": "Una relación 'es-un' (herencia)" },
+        { "opcion": "3", "value": "Escribir código en un solo archivo" },
+        { "opcion": "4", "value": "Mezclar diferentes lenguajes de programación" }
+      ],
+      "respuesta_correcta": "1"
+    },
+    {
+      "id": 19,
+      "pregunta": "¿Qué sucede si una clase es declarada como <code>final</code>?",
+      "alternativas": [
+        { "opcion": "1", "value": "No puede tener métodos" },
+        { "opcion": "2", "value": "No puede ser instanciada" },
+        { "opcion": "3", "value": "No puede ser heredada por otra clase" },
+        { "opcion": "4", "value": "Solo puede tener atributos privados" }
+      ],
+      "respuesta_correcta": "3"
+    },
+    {
+      "id": 20,
+      "pregunta": "¿Cuál es la función de los métodos <code>getter</code> y <code>setter</code>?",
+      "alternativas": [
+        { "opcion": "1", "value": "Crear y destruir objetos" },
+        { "opcion": "2", "value": "Acceder y modificar atributos privados de forma controlada" },
+        { "opcion": "3", "value": "Optimizar el rendimiento del procesador" },
+        { "opcion": "4", "value": "Dibujar interfaces gráficas" }
+      ],
+      "respuesta_correcta": "2"
+    }
+  ]
+}

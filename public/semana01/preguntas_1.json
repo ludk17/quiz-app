@@ -1,0 +1,653 @@
+{
+  "trivia": [
+    {
+      "id": 1,
+      "pregunta": "Mira este código: <pre><code>class Celular {\n  String marca = 'Samsumg';\n}</code></pre> ¿Qué representa <b>Celular</b>?",
+      "alternativas": [
+        { "opcion": "1", "value": "Es un objeto ya creado" },
+        {
+          "opcion": "2",
+          "value": "Es el molde o 'Clase' para crear celulares"
+        },
+        { "opcion": "3", "value": "Es una función que llama a alguien" },
+        { "opcion": "4", "value": "Es un mensaje de error" }
+      ],
+      "respuesta_correcta": "2"
+    },
+    {
+      "id": 2,
+      "pregunta": "Si tenemos: <pre><code>Persona p = new Persona();\np.nombre = 'Juan';</code></pre> ¿Qué se está haciendo en la segunda línea?",
+      "alternativas": [
+        { "opcion": "1", "value": "Creando una nueva clase" },
+        { "opcion": "2", "value": "Borrando el nombre de Juan" },
+        {
+          "opcion": "3",
+          "value": "Accediendo a la propiedad 'nombre' del objeto 'p' para darle un valor"
+        },
+        { "opcion": "4", "value": "Llamando a un número de teléfono" }
+      ],
+      "respuesta_correcta": "3"
+    },
+    {
+      "id": 3,
+      "pregunta": "Analiza esto: <pre><code>class Calculadora {\n  sumar(int a, int b) { ... }\n}</code></pre> ¿Qué es <b>sumar</b> dentro de la clase?",
+      "alternativas": [
+        { "opcion": "1", "value": "Una variable de texto" },
+        {
+          "opcion": "2",
+          "value": "Un Método (una acción que el objeto puede hacer)"
+        },
+        { "opcion": "3", "value": "El nombre de la aplicación" },
+        { "opcion": "4", "value": "Un número entero" }
+      ],
+      "respuesta_correcta": "2"
+    },
+    {
+      "id": 4,
+      "pregunta": "¿Qué sucede aquí? <pre><code>Usuario u1 = new Usuario();\nUsuario u2 = new Usuario();</code></pre>",
+      "alternativas": [
+        { "opcion": "1", "value": "Se ha creado una sola persona" },
+        {
+          "opcion": "2",
+          "value": "Se han creado dos instancias (objetos) independientes"
+        },
+        { "opcion": "3", "value": "El código da error porque se repite" },
+        { "opcion": "4", "value": "Se borró la clase Usuario" }
+      ],
+      "respuesta_correcta": "2"
+    },
+    {
+      "id": 5,
+      "pregunta": "Si la IA te genera este código: <pre><code>boton.color = 'rojo';\nboton.deshabilitar();</code></pre> ¿Cuál es el <b>método</b> (acción)?",
+      "alternativas": [
+        { "opcion": "1", "value": "color" },
+        { "opcion": "2", "value": "rojo" },
+        { "opcion": "3", "value": "deshabilitar()" },
+        { "opcion": "4", "value": "boton" }
+      ],
+      "respuesta_correcta": "3"
+    },
+    {
+      "id": 6,
+      "pregunta": "En este constructor: <pre><code>Auto(this.color);</code></pre> ¿Para qué sirve <b>this</b>?",
+      "alternativas": [
+        {
+          "opcion": "1",
+          "value": "Para referirse al color de 'este' objeto específico que se está creando"
+        },
+        { "opcion": "2", "value": "Para salir de la aplicación" },
+        { "opcion": "3", "value": "Para importar una librería" },
+        { "opcion": "4", "value": "No sirve para nada" }
+      ],
+      "respuesta_correcta": "1"
+    },
+    {
+      "id": 7,
+      "pregunta": "Si ves <code>( )</code> después de una palabra, como en <code>actualizar()</code>, ¿qué indica usualmente?",
+      "alternativas": [
+        { "opcion": "1", "value": "Que es una variable" },
+        {
+          "opcion": "2",
+          "value": "Que es una ejecución de una función o método"
+        },
+        { "opcion": "3", "value": "Que el código es opcional" },
+        { "opcion": "4", "value": "Que es un comentario" }
+      ],
+      "respuesta_correcta": "2"
+    },
+    {
+      "id": 8,
+      "pregunta": "Mira este error: <pre><code>String nombre = 25;</code></pre> ¿Por qué fallaría?",
+      "alternativas": [
+        {
+          "opcion": "1",
+          "value": "Porque 'String' espera texto y le estamos dando un número (int)"
+        },
+        { "opcion": "2", "value": "Porque el nombre no puede ser 25" },
+        { "opcion": "3", "value": "Porque falta un punto" },
+        { "opcion": "4", "value": "No falla, es correcto" }
+      ],
+      "respuesta_correcta": "1"
+    },
+    {
+      "id": 9,
+      "pregunta": "En desarrollo móvil, si una clase <b>Home</b> hereda de <b>Screen</b>: <pre><code>class Home extends Screen { }</code></pre> ¿Qué puede hacer Home?",
+      "alternativas": [
+        { "opcion": "1", "value": "Nada, está vacía" },
+        {
+          "opcion": "2",
+          "value": "Solo lo que se escriba dentro de sus llaves"
+        },
+        {
+          "opcion": "3",
+          "value": "Usar las funciones que ya venían en 'Screen'"
+        },
+        { "opcion": "4", "value": "Borrar a 'Screen'" }
+      ],
+      "respuesta_correcta": "3"
+    },
+    {
+      "id": 10,
+      "pregunta": "Si tienes: <pre><code>List compras = ['Pan', 'Leche'];</code></pre> ¿Cuántos objetos hay en esa lista?",
+      "alternativas": [
+        { "opcion": "1", "value": "0" },
+        { "opcion": "2", "value": "1" },
+        { "opcion": "3", "value": "2" },
+        { "opcion": "4", "value": "Infinitos" }
+      ],
+      "respuesta_correcta": "3"
+    },
+    {
+      "id": 11,
+      "pregunta": "Si tienes el siguiente código: <pre><code>int puntos = 10;\npuntos = 20;\npuntos = 5;</code></pre> ¿Cuál es el valor final de <b>puntos</b>?",
+      "alternativas": [
+        { "opcion": "1", "value": "10" },
+        { "opcion": "2", "value": "20" },
+        { "opcion": "3", "value": "5" },
+        { "opcion": "4", "value": "35 (la suma de todos)" }
+      ],
+      "respuesta_correcta": "3"
+    },
+    {
+      "id": 12,
+      "pregunta": "¿Qué indica el punto <code>.</code> en <code>usuario.nombre</code>?",
+      "alternativas": [
+        { "opcion": "1", "value": "Que finalizó el programa" },
+        {
+          "opcion": "2",
+          "value": "Que estamos entrando a ver una propiedad o método de ese objeto"
+        },
+        { "opcion": "3", "value": "Que hay un error de ortografía" },
+        { "opcion": "4", "value": "Que es un número decimal" }
+      ],
+      "respuesta_correcta": "2"
+    },
+    {
+      "id": 13,
+      "pregunta": "Analiza este código de un botón: <pre><code>onPressed: () {\n  print('Botón presionado');\n}</code></pre> ¿Cuándo se ejecutará el <b>print</b>?",
+      "alternativas": [
+        { "opcion": "1", "value": "En cuanto se abra la App" },
+        { "opcion": "2", "value": "Nunca, es un comentario" },
+        {
+          "opcion": "3",
+          "value": "Solo cuando el usuario haga clic o presione el botón"
+        },
+        { "opcion": "4", "value": "Cada 5 segundos" }
+      ],
+      "respuesta_correcta": "3"
+    },
+    {
+      "id": 14,
+      "pregunta": "Si la IA escribe: <pre><code>double precio = 19.99;</code></pre> ¿Qué tipo de dato es <b>double</b>?",
+      "alternativas": [
+        { "opcion": "1", "value": "Texto largo" },
+        { "opcion": "2", "value": "Número con decimales" },
+        { "opcion": "3", "value": "Un número entero sin decimales" },
+        { "opcion": "4", "value": "Una lista de precios" }
+      ],
+      "respuesta_correcta": "2"
+    },
+    {
+      "id": 15,
+      "pregunta": "¿Qué hace esta condición? <pre><code>if (edad >= 18) {\n  permitirAcceso();\n}</code></pre>",
+      "alternativas": [
+        {
+          "opcion": "1",
+          "value": "Permite el acceso si la edad es exactamente 18"
+        },
+        { "opcion": "2", "value": "Permite el acceso si la edad es 18 o más" },
+        { "opcion": "3", "value": "Bloquea a los menores de 18" },
+        { "opcion": "4", "value": "Borra la variable edad" }
+      ],
+      "respuesta_correcta": "2"
+    },
+    {
+      "id": 16,
+      "pregunta": "En el código: <pre><code>String saludo = 'Hola ' + 'Mundo';</code></pre> ¿Qué contiene la variable <b>saludo</b>?",
+      "alternativas": [
+        { "opcion": "1", "value": "Hola" },
+        { "opcion": "2", "value": "Mundo" },
+        { "opcion": "3", "value": "Hola Mundo" },
+        { "opcion": "4", "value": "Error, no se pueden sumar palabras" }
+      ],
+      "respuesta_correcta": "3"
+    },
+    {
+      "id": 17,
+      "pregunta": "Si ves una clase que empieza así: <pre><code>class LoginScreen extends Screen { ... }</code></pre> ¿Quién es la 'Clase Padre'?",
+      "alternativas": [
+        { "opcion": "1", "value": "LoginScreen" },
+        { "opcion": "2", "value": "extends" },
+        { "opcion": "3", "value": "Screen" },
+        { "opcion": "4", "value": "No tiene padre" }
+      ],
+      "respuesta_correcta": "3"
+    },
+    {
+      "id": 18,
+      "pregunta": "Mira este método: <pre><code>int duplicar(int n) {\n  return n * 2;\n}</code></pre> Si llamo a <code>duplicar(5)</code>, ¿qué me devuelve?",
+      "alternativas": [
+        { "opcion": "1", "value": "5" },
+        { "opcion": "2", "value": "2" },
+        { "opcion": "3", "value": "10" },
+        { "opcion": "4", "value": "n2" }
+      ],
+      "respuesta_correcta": "3"
+    },
+    {
+      "id": 19,
+      "pregunta": "¿Para qué sirven las llaves <code>{ }</code> en programación?",
+      "alternativas": [
+        { "opcion": "1", "value": "Para poner decoraciones" },
+        {
+          "opcion": "2",
+          "value": "Para agrupar un bloque de código que pertenece a una clase o función"
+        },
+        { "opcion": "3", "value": "Para indicar que el código es secreto" },
+        { "opcion": "4", "value": "Para separar los números decimales" }
+      ],
+      "respuesta_correcta": "2"
+    },
+    {
+      "id": 20,
+      "pregunta": "Si un objeto <code>perfil</code> tiene un método <code>cerrarSesion()</code>, ¿cómo lo ejecutas correctamente?",
+      "alternativas": [
+        { "opcion": "1", "value": "perfil -> cerrarSesion" },
+        { "opcion": "2", "value": "cerrarSesion(perfil)" },
+        { "opcion": "3", "value": "perfil.cerrarSesion();" },
+        { "opcion": "4", "value": "ejecutar perfil" }
+      ],
+      "respuesta_correcta": "3"
+    },
+    {
+      "id": 21,
+      "pregunta": "Si tienes: <pre><code>List nombres = ['Ana', 'Luis', 'Pepe'];</code></pre> ¿Cómo obtienes a 'Pepe'?",
+      "alternativas": [
+        { "opcion": "1", "value": "nombres[3]" },
+        { "opcion": "2", "value": "nombres[2]" },
+        { "opcion": "3", "value": "nombres[1]" },
+        { "opcion": "4", "value": "nombres.Pepe" }
+      ],
+      "respuesta_correcta": "2"
+    },
+    {
+      "id": 22,
+      "pregunta": "¿Qué hace este código? <pre><code>List items = [];\nitems.add('Leche');</code></pre>",
+      "alternativas": [
+        {
+          "opcion": "1",
+          "value": "Crea una lista vacía y luego le agrega un elemento"
+        },
+        { "opcion": "2", "value": "Borra la palabra Leche" },
+        { "opcion": "3", "value": "Suma números a la lista" },
+        { "opcion": "4", "value": "Da error porque la lista estaba vacía" }
+      ],
+      "respuesta_correcta": "1"
+    },
+    {
+      "id": 23,
+      "pregunta": "Analiza esta función: <pre><code>void saludar(String nombre) {\n  print('Hola ' + nombre);\n}</code></pre> ¿Qué es <b>nombre</b>?",
+      "alternativas": [
+        { "opcion": "1", "value": "Una clase" },
+        {
+          "opcion": "2",
+          "value": "Un parámetro (un dato que la función recibe)"
+        },
+        { "opcion": "3", "value": "El resultado final" },
+        { "opcion": "4", "value": "Un objeto vacío" }
+      ],
+      "respuesta_correcta": "2"
+    },
+    {
+      "id": 24,
+      "pregunta": "Si la IA escribe: <pre><code>bool esValido = true;</code></pre> ¿Qué valores puede tomar esa variable?",
+      "alternativas": [
+        { "opcion": "1", "value": "Cualquier número" },
+        { "opcion": "2", "value": "Cualquier texto" },
+        { "opcion": "3", "value": "Solo true (verdadero) o false (falso)" },
+        { "opcion": "4", "value": "Una lista de nombres" }
+      ],
+      "respuesta_correcta": "3"
+    },
+    {
+      "id": 25,
+      "pregunta": "¿Qué significa el símbolo <code>!</code> antes de una condición como en <code>if (!logueado)</code>?",
+      "alternativas": [
+        { "opcion": "1", "value": "Que es muy importante" },
+        { "opcion": "2", "value": "Es una negación (Si NO está logueado)" },
+        { "opcion": "3", "value": "Es para sumar valores" },
+        { "opcion": "4", "value": "Indica el final del if" }
+      ],
+      "respuesta_correcta": "2"
+    },
+    {
+      "id": 26,
+      "pregunta": "Mira este Widget de una App: <pre><code>Text('Hola', style: TextStyle(fontSize: 20))</code></pre> ¿Qué es <b>TextStyle</b>?",
+      "alternativas": [
+        { "opcion": "1", "value": "Una variable de texto" },
+        {
+          "opcion": "2",
+          "value": "Una Clase que define cómo se verá el texto"
+        },
+        { "opcion": "3", "value": "Un error de estilo" },
+        { "opcion": "4", "value": "Un botón oculto" }
+      ],
+      "respuesta_correcta": "2"
+    },
+    {
+      "id": 27,
+      "pregunta": "Si tienes: <pre><code>int x = 10;\nint y = 5;\nif (x > y) { print('A'); } else { print('B'); }</code></pre> ¿Qué se imprime?",
+      "alternativas": [
+        { "opcion": "1", "value": "A" },
+        { "opcion": "2", "value": "B" },
+        { "opcion": "3", "value": "AB" },
+        { "opcion": "4", "value": "Nada" }
+      ],
+      "respuesta_correcta": "1"
+    },
+    {
+      "id": 28,
+      "pregunta": "¿Para qué sirve el comando <code>return</code> dentro de una función?",
+      "alternativas": [
+        { "opcion": "1", "value": "Para volver al inicio del programa" },
+        {
+          "opcion": "2",
+          "value": "Para entregar o devolver un valor procesado"
+        },
+        { "opcion": "3", "value": "Para borrar los datos" },
+        { "opcion": "4", "value": "Para saltar a la siguiente línea" }
+      ],
+      "respuesta_correcta": "2"
+    },
+    {
+      "id": 29,
+      "pregunta": "En el código: <pre><code>Column(children: [ Text('A'), Text('B') ])</code></pre> ¿Qué representa el corchete <code>[ ]</code>?",
+      "alternativas": [
+        { "opcion": "1", "value": "Un error" },
+        { "opcion": "2", "value": "Una lista de elementos (hijos del Column)" },
+        { "opcion": "3", "value": "Una variable única" },
+        { "opcion": "4", "value": "El final de la pantalla" }
+      ],
+      "respuesta_correcta": "2"
+    },
+    {
+      "id": 30,
+      "pregunta": "Si ves: <pre><code>usuario?.nombre</code></pre> ¿Qué significa ese signo de interrogación <code>?</code>?",
+      "alternativas": [
+        { "opcion": "1", "value": "Que el nombre es una pregunta" },
+        {
+          "opcion": "2",
+          "value": "Que solo acceda al nombre si el objeto 'usuario' no es nulo (existe)"
+        },
+        {
+          "opcion": "3",
+          "value": "Que el código es opcional y no se ejecutará"
+        },
+        { "opcion": "4", "value": "Que hay un error en la base de datos" }
+      ],
+      "respuesta_correcta": "2"
+    },
+    {
+      "id": 31,
+      "pregunta": "Si ves el siguiente código: <pre><code>double precio = 50.0;\nString texto = precio.toString();</code></pre> ¿Qué hace el método <b>toString()</b>?",
+      "alternativas": [
+        { "opcion": "1", "value": "Suma 1 al precio" },
+        { "opcion": "2", "value": "Convierte el número en un texto (String)" },
+        { "opcion": "3", "value": "Borra el precio" },
+        { "opcion": "4", "value": "Lo guarda en la base de datos" }
+      ],
+      "respuesta_correcta": "2"
+    },
+    {
+      "id": 32,
+      "pregunta": "En una App de Flutter, si ves: <pre><code>onTap: () { \n  navegar(); \n}</code></pre> ¿Qué son los paréntesis vacíos <code>()</code> antes de la llave?",
+      "alternativas": [
+        { "opcion": "1", "value": "Una lista de errores" },
+        {
+          "opcion": "2",
+          "value": "Una función anónima (código que se ejecutará al tocar)"
+        },
+        { "opcion": "3", "value": "El nombre del botón" },
+        { "opcion": "4", "value": "Un icono circular" }
+      ],
+      "respuesta_correcta": "2"
+    },
+    {
+      "id": 33,
+      "pregunta": "Analiza esto: <pre><code>int edad = null;</code></pre> Si el lenguaje tiene 'Null Safety', ¿qué pasará?",
+      "alternativas": [
+        { "opcion": "1", "value": "El programa funciona normal" },
+        {
+          "opcion": "2",
+          "value": "Dará error porque 'int' no acepta valores nulos (vacíos) por defecto"
+        },
+        { "opcion": "3", "value": "La edad se vuelve 0 automáticamente" },
+        { "opcion": "4", "value": "Se borra la variable" }
+      ],
+      "respuesta_correcta": "2"
+    },
+    {
+      "id": 34,
+      "pregunta": "¿Qué significa <b>void</b> en la declaración de una función como: <pre><code>void enviarMensaje() { ... }</code></pre>?",
+      "alternativas": [
+        { "opcion": "1", "value": "Que la función es secreta" },
+        {
+          "opcion": "2",
+          "value": "Que la función no devuelve ningún valor al terminar"
+        },
+        { "opcion": "3", "value": "Que la función solo acepta números" },
+        { "opcion": "4", "value": "Que la función está rota" }
+      ],
+      "respuesta_correcta": "2"
+    },
+    {
+      "id": 35,
+      "pregunta": "Si tienes: <pre><code>class Animal { }\nclass Gato extends Animal { }</code></pre> ¿Es correcto decir que un Gato 'es un' Animal?",
+      "alternativas": [
+        { "opcion": "1", "value": "No, son cosas distintas" },
+        { "opcion": "2", "value": "Sí, por el concepto de herencia (extends)" },
+        { "opcion": "3", "value": "Solo si el Gato tiene nombre" },
+        { "opcion": "4", "value": "Error de sintaxis" }
+      ],
+      "respuesta_correcta": "2"
+    },
+    {
+      "id": 36,
+      "pregunta": "Mira este código: <pre><code>print('El total es: $suma');</code></pre> ¿Para qué sirve el símbolo <b>$</b>?",
+      "alternativas": [
+        { "opcion": "1", "value": "Para indicar que es dinero" },
+        {
+          "opcion": "2",
+          "value": "Para insertar el valor de la variable 'suma' dentro del texto"
+        },
+        { "opcion": "3", "value": "Es un error de tipeo" },
+        { "opcion": "4", "value": "Para cerrar el programa" }
+      ],
+      "respuesta_correcta": "2"
+    },
+    {
+      "id": 37,
+      "pregunta": "En el código: <pre><code>if (x == 10) { ... }</code></pre> ¿Qué hace el doble igual <b>==</b>?",
+      "alternativas": [
+        { "opcion": "1", "value": "Le asigna el valor 10 a la x" },
+        { "opcion": "2", "value": "Compara si x es igual a 10" },
+        { "opcion": "3", "value": "Suma 10 a la x" },
+        { "opcion": "4", "value": "Borra el valor de x" }
+      ],
+      "respuesta_correcta": "2"
+    },
+    {
+      "id": 38,
+      "pregunta": "¿Cómo se llama la acción de crear un objeto a partir de una clase?<br>Ejemplo: <code>Auto miAuto = new Auto();</code>",
+      "alternativas": [
+        { "opcion": "1", "value": "Herencia" },
+        { "opcion": "2", "value": "Instanciación" },
+        { "opcion": "3", "value": "Encapsulamiento" },
+        { "opcion": "4", "value": "Impresión" }
+      ],
+      "respuesta_correcta": "2"
+    },
+    {
+      "id": 39,
+      "pregunta": "Si la IA genera: <pre><code>List&lt;String&gt; lista;</code></pre> ¿Qué significa lo que está entre <code>&lt; &gt;</code>?",
+      "alternativas": [
+        { "opcion": "1", "value": "Es un comentario" },
+        {
+          "opcion": "2",
+          "value": "Indica que la lista solo puede contener elementos de tipo String (texto)"
+        },
+        { "opcion": "3", "value": "Es un error visual" },
+        { "opcion": "4", "value": "Es el nombre de la lista" }
+      ],
+      "respuesta_correcta": "2"
+    },
+    {
+      "id": 40,
+      "pregunta": "En una clase, ¿qué es un <b>Atributo</b>?",
+      "alternativas": [
+        { "opcion": "1", "value": "Una acción que el objeto realiza" },
+        {
+          "opcion": "2",
+          "value": "Una característica o dato que el objeto posee (como color o nombre)"
+        },
+        { "opcion": "3", "value": "El nombre del archivo" },
+        { "opcion": "4", "value": "Un botón de la interfaz" }
+      ],
+      "respuesta_correcta": "2"
+    },
+    {
+      "id": 41,
+      "pregunta": "Si ves el símbolo <code>{ }</code> dentro de un constructor: <pre><code>Usuario({this.nombre, this.edad});</code></pre> ¿Qué significa en lenguajes como Dart?",
+      "alternativas": [
+        {
+          "opcion": "1",
+          "value": "Que los parámetros son obligatorios siempre"
+        },
+        {
+          "opcion": "2",
+          "value": "Que los parámetros son opcionales y se pasan por nombre (ej: nombre: 'Ana')"
+        },
+        { "opcion": "3", "value": "Que el código está encriptado" },
+        { "opcion": "4", "value": "Que la clase no tiene atributos" }
+      ],
+      "respuesta_correcta": "2"
+    },
+    {
+      "id": 42,
+      "pregunta": "¿Qué sucede en este código? <pre><code>int i = 0;\nwhile (i < 3) {\n  print('Hola');\n  i++;\n}</code></pre>",
+      "alternativas": [
+        { "opcion": "1", "value": "Imprime 'Hola' una sola vez" },
+        { "opcion": "2", "value": "Imprime 'Hola' tres veces" },
+        { "opcion": "3", "value": "No imprime nada" },
+        { "opcion": "4", "value": "Imprime 'Hola' para siempre" }
+      ],
+      "respuesta_correcta": "2"
+    },
+    {
+      "id": 43,
+      "pregunta": "En el código de un botón: <pre><code>onPressed: () => print('Click')</code></pre> ¿Qué significa la flecha <code>=></code>?",
+      "alternativas": [
+        { "opcion": "1", "value": "Es un error de dibujo" },
+        {
+          "opcion": "2",
+          "value": "Es una forma corta de escribir una función que solo tiene una línea"
+        },
+        { "opcion": "3", "value": "Indica que el botón va a la derecha" },
+        { "opcion": "4", "value": "Suma dos valores" }
+      ],
+      "respuesta_correcta": "2"
+    },
+    {
+      "id": 44,
+      "pregunta": "¿Qué es <code>null</code> en programación?",
+      "alternativas": [
+        { "opcion": "1", "value": "El número cero" },
+        {
+          "opcion": "2",
+          "value": "La ausencia total de valor (está vacío o no existe)"
+        },
+        { "opcion": "3", "value": "Un texto que dice 'nada'" },
+        { "opcion": "4", "value": "Un error que apaga el celular" }
+      ],
+      "respuesta_correcta": "2"
+    },
+    {
+      "id": 45,
+      "pregunta": "Si una variable se llama <code>_nombre</code> (empieza con guion bajo), ¿qué suele indicar en muchos lenguajes?",
+      "alternativas": [
+        { "opcion": "1", "value": "Que es una variable pública" },
+        {
+          "opcion": "2",
+          "value": "Que es una variable privada (solo se usa dentro de esa clase)"
+        },
+        { "opcion": "3", "value": "Que la variable es de tipo número" },
+        { "opcion": "4", "value": "Que el nombre está mal escrito" }
+      ],
+      "respuesta_correcta": "2"
+    },
+    {
+      "id": 46,
+      "pregunta": "Mira este código: <pre><code>class Perro extends Animal {\n  @override\n  void hacerSonido() { print('Guau'); }\n}</code></pre> ¿Qué significa <b>@override</b>?",
+      "alternativas": [
+        { "opcion": "1", "value": "Que el perro no hace sonidos" },
+        {
+          "opcion": "2",
+          "value": "Que estamos sobrescribiendo un método que ya existía en la clase padre"
+        },
+        { "opcion": "3", "value": "Que el código es una copia" },
+        { "opcion": "4", "value": "Que la función es nueva" }
+      ],
+      "respuesta_correcta": "2"
+    },
+    {
+      "id": 47,
+      "pregunta": "¿Qué tipo de dato devolvería esta función? <pre><code>getPrecio() {\n  return 25.50;\n}</code></pre>",
+      "alternativas": [
+        { "opcion": "1", "value": "String" },
+        { "opcion": "2", "value": "int" },
+        { "opcion": "3", "value": "double" },
+        { "opcion": "4", "value": "bool" }
+      ],
+      "respuesta_correcta": "3"
+    },
+    {
+      "id": 48,
+      "pregunta": "En móviles, si ves <code>Navigator.push(...)</code>, ¿qué crees que hace el código?",
+      "alternativas": [
+        { "opcion": "1", "value": "Borra la aplicación" },
+        {
+          "opcion": "2",
+          "value": "Cambia o 'empuja' una nueva pantalla al usuario"
+        },
+        { "opcion": "3", "value": "Sube el volumen" },
+        { "opcion": "4", "value": "Cierra la sesión" }
+      ],
+      "respuesta_correcta": "2"
+    },
+    {
+      "id": 49,
+      "pregunta": "Si tienes: <pre><code>int a = 5;\nint b = 10;\nprint('Resultado: ${a + b}');</code></pre> ¿Qué se verá en consola?",
+      "alternativas": [
+        { "opcion": "1", "value": "Resultado: a + b" },
+        { "opcion": "2", "value": "Resultado: 15" },
+        { "opcion": "3", "value": "Resultado: 510" },
+        { "opcion": "4", "value": "Error" }
+      ],
+      "respuesta_correcta": "2"
+    },
+    {
+      "id": 50,
+      "pregunta": "¿Por qué es importante entender estos conceptos antes de usar IA?",
+      "alternativas": [
+        { "opcion": "1", "value": "Porque la IA nunca se equivoca" },
+        {
+          "opcion": "2",
+          "value": "Para poder corregir y entender el código que la IA genera por nosotros"
+        },
+        { "opcion": "3", "value": "Para no tener que escribir nada" },
+        { "opcion": "4", "value": "No es importante" }
+      ],
+      "respuesta_correcta": "2"
+    }
+  ]
+}
